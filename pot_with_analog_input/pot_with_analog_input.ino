@@ -6,9 +6,7 @@ int POT = A0; // <--- NOTE: Analog
 void setup()
 {
   // set the LED pin (3) to be output
-  // set the POT pin (A0) to be a normal input
   pinMode(LED,OUTPUT);
-  pinMode(POT,INPUT);
   //Serial.begin(9600); // uncomment if you want to see values in serial monitor
 }
 
