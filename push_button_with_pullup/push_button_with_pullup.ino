@@ -16,13 +16,13 @@ void loop()
 {
   // read the state of the button and 
   // assign it to the variable
-  int btnPush = digitalRead(BTN);
+  int BTN_STATE = digitalRead(BTN);
 
   // Keep in mind the pullup means the pushbutton's
   // logic is inverted. It goes HIGH when it's open,
   // and LOW when it's pressed. Turn on pin 13 when the
   // button's pressed, and off when it's not:
-  if(btnPush == HIGH)
+  if(BTN_PUSH == HIGH)
   {
     digitalWrite(LED,LOW);
   }
